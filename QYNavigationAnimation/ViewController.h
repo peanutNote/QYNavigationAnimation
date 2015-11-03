@@ -10,6 +10,16 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)upPush:(id)sender;
+- (IBAction)downPush:(id)sender;
+
+- (IBAction)leftPush:(id)sender;
+- (IBAction)leftUpPush:(id)sender;
+- (IBAction)leftDownPush:(id)sender;
+
+- (IBAction)rightPush:(id)sender;
+- (IBAction)rightUpPush:(id)sender;
+- (IBAction)rightDownPush:(id)sender;
 
 @end
 

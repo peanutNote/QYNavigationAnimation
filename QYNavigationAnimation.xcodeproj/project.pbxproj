@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E2228D41BE8A380006F216A /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1E2228D31BE8A380006F216A /* demo.gif */; };
 		1E4A74801BE76AEE0035ADF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4A747F1BE76AEE0035ADF1 /* main.m */; };
 		1E4A74831BE76AEE0035ADF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4A74821BE76AEE0035ADF1 /* AppDelegate.m */; };
 		1E4A74861BE76AEE0035ADF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4A74851BE76AEE0035ADF1 /* ViewController.m */; };
 		1E4A74891BE76AEE0035ADF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E4A74871BE76AEE0035ADF1 /* Main.storyboard */; };
 		1E4A748B1BE76AEE0035ADF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E4A748A1BE76AEE0035ADF1 /* Assets.xcassets */; };
 		1E4A748E1BE76AEE0035ADF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E4A748C1BE76AEE0035ADF1 /* LaunchScreen.storyboard */; };
+		1E4A74981BE853BE0035ADF1 /* QYNavigationAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4A74971BE853BE0035ADF1 /* QYNavigationAnimation.m */; };
+		1E4A749B1BE854160035ADF1 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4A749A1BE854160035ADF1 /* UIViewExt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E2228D31BE8A380006F216A /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 		1E4A747B1BE76AEE0035ADF1 /* QYNavigationAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYNavigationAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E4A747F1BE76AEE0035ADF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1E4A74811BE76AEE0035ADF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +30,10 @@
 		1E4A748A1BE76AEE0035ADF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E4A748D1BE76AEE0035ADF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E4A748F1BE76AEE0035ADF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E4A74961BE853BE0035ADF1 /* QYNavigationAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYNavigationAnimation.h; sourceTree = "<group>"; };
+		1E4A74971BE853BE0035ADF1 /* QYNavigationAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYNavigationAnimation.m; sourceTree = "<group>"; };
+		1E4A74991BE854160035ADF1 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		1E4A749A1BE854160035ADF1 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +66,13 @@
 		1E4A747D1BE76AEE0035ADF1 /* QYNavigationAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				1E4A74951BE853A60035ADF1 /* QYNavigationAnimation */,
 				1E4A74811BE76AEE0035ADF1 /* AppDelegate.h */,
 				1E4A74821BE76AEE0035ADF1 /* AppDelegate.m */,
 				1E4A74841BE76AEE0035ADF1 /* ViewController.h */,
 				1E4A74851BE76AEE0035ADF1 /* ViewController.m */,
 				1E4A74871BE76AEE0035ADF1 /* Main.storyboard */,
+				1E2228D31BE8A380006F216A /* demo.gif */,
 				1E4A748A1BE76AEE0035ADF1 /* Assets.xcassets */,
 				1E4A748C1BE76AEE0035ADF1 /* LaunchScreen.storyboard */,
 				1E4A748F1BE76AEE0035ADF1 /* Info.plist */,
@@ -77,6 +87,17 @@
 				1E4A747F1BE76AEE0035ADF1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E4A74951BE853A60035ADF1 /* QYNavigationAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				1E4A74961BE853BE0035ADF1 /* QYNavigationAnimation.h */,
+				1E4A74971BE853BE0035ADF1 /* QYNavigationAnimation.m */,
+				1E4A74991BE854160035ADF1 /* UIViewExt.h */,
+				1E4A749A1BE854160035ADF1 /* UIViewExt.m */,
+			);
+			name = QYNavigationAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E4A748E1BE76AEE0035ADF1 /* LaunchScreen.storyboard in Resources */,
+				1E2228D41BE8A380006F216A /* demo.gif in Resources */,
 				1E4A748B1BE76AEE0035ADF1 /* Assets.xcassets in Resources */,
 				1E4A74891BE76AEE0035ADF1 /* Main.storyboard in Resources */,
 			);
@@ -150,6 +172,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E4A74861BE76AEE0035ADF1 /* ViewController.m in Sources */,
+				1E4A74981BE853BE0035ADF1 /* QYNavigationAnimation.m in Sources */,
+				1E4A749B1BE854160035ADF1 /* UIViewExt.m in Sources */,
 				1E4A74831BE76AEE0035ADF1 /* AppDelegate.m in Sources */,
 				1E4A74801BE76AEE0035ADF1 /* main.m in Sources */,
 			);
@@ -261,7 +285,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QYNavigationAnimation",
+				);
 				INFOPLIST_FILE = QYNavigationAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qianye.QYNavigationAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +301,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QYNavigationAnimation",
+				);
 				INFOPLIST_FILE = QYNavigationAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qianye.QYNavigationAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +332,7 @@
 				1E4A74941BE76AEE0035ADF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
