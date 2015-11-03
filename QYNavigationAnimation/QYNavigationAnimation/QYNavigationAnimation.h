@@ -23,7 +23,7 @@ typedef NS_ENUM(NSInteger, QYNavigationAnimationModel) {
     QYNavigationLeftDownPush,
     // 往右上push
     QYNavigationRightUpPush,
-    // 网右下push
+    // 往右下push
     QYNavigationRightDownPush
 };
 

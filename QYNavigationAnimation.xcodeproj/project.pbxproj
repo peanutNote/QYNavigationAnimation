@@ -97,7 +97,7 @@
 				1E4A74991BE854160035ADF1 /* UIViewExt.h */,
 				1E4A749A1BE854160035ADF1 /* UIViewExt.m */,
 			);
-			name = QYNavigationAnimation;
+			path = QYNavigationAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
